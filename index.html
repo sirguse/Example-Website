@@ -20,7 +20,7 @@
     <header>
       <div class="container-fluid central">
         <nav class="navbar row">
-          <div class="logo col-sm-4">
+          <div class="logo col-lg-4">
             <a href="#">
               <img src="/img/Logo.png" />
             </a>
@@ -33,7 +33,7 @@
               <li><a href="#">About Us</a></li>
             </ul>
           </div>
-          <div class="nav-button col-sm-4">
+          <div class="nav-button col-lg-4">
             <a href="#">
               <button>Book A Call</button>
             </a>
@@ -62,21 +62,99 @@
           </div>
 
           <div class="right-side col-lg-6">
-            <img src="/img/Image.png">
+            <img class="img-fluid"src="/img/Image.png"> <!--Do poprawy responsywnosc-->
           </div>
         </div>
       </div>
     </section>
     
-    <div class="container">
-        <h1></h1>
-        <div class="companies row">
-
+    <div class="container-fluid companies-box">
+        <div class="companies-text">
+          <h1>Companies We Work With</h1>
         </div>
+        <div class="companies row">
+          <div class="companies-list col-sm-12"> <!--W @media dac flex-direction:column-->
+            <ul>
+              <li><img src="/img/companies/Spotify.png"></li>
+              <li><img src="/img/companies/Google.png"></li>
+              <li><img src="/img/companies/Uber.png"></li>
+              <li><img src="/img/companies/Microsoft.png"></li>
+              <li><img src="/img/companies/Shopify.png"></li>
+            </ul>
+          </div>
+          <div class="companies-list col-sm-12">
+            <ul>
+              <li><img src="/img/companies/Evernote.png"></li>
+              <li><img src="/img/companies/Adobe.png"></li>
+              <li><img src="/img/companies/PayPal.png"></li>
+              <li><img src="/img/companies/Amazon.png"></li>
+              <li><img src="/img/companies/Asana.png"></li>
+            </ul>
+
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid com"> <!--Znalezc rozwiazanie jak poprawnie oddalic od rogu ekranu.-->
+      <div class="com-box row">
+
+        <div class="com-box-left row col-sm-6">
+          <div class="com-box-left-one ">
+            <h1>245%</h1>
+            <span>More revenues for the brand</span>
+            <h1>50+</h1>
+            <span>Brands trust us</span>
+          </div>
+          <div class="com-box-left-second">
+            <h1>130K+</h1>
+            <span>Audiences reached</span>
+            <h1>24+</h1>
+            <span>Worldwide Awards</span>
+
+          </div>
+        </div>
+
+        <div class="com-box-right col-lg-6">
+            <div class="com-box-right-text">
+              <h1>Commitments</h1>
+              <span>We are committed to working with you collaboratively to understand your goals and create a strategy that will achieve them.</span>
+            </div>
+            <div class="com-box-right-button">
+              <a href="#">Learn More</a>
+              <img src="img/Vector (1).png" alt="arrow">
+            </div>
+        </div>
+      </div>
     </div>
 
 
+    <section class="how container-fluid">
+      <div class="row how-box">
 
+        <div class="how-box-left col-6">
+          <div class="how-box-left-text">
+            <h1>How It Works</h1>
+            <span>We believe that the best way to create successful marketing campaigns is to work closely with our clients to understand their goals and challenges.</span>
+          </div>
+          <div class="how-box-left-image">
+            <img src="img/Rectangle 160.png">
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="how-box-right col-6">
+
+
+
+        </div>
+
+
+
+      </div>
+    </section>
 
     <script src="./js/script.js"></script>
   </body>

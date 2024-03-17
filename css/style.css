@@ -59,7 +59,7 @@ header .navbar .nav-button a button {
 }
 
 .hero-section {
-  height: 80vh;
+  height: 850px;
 }
 .hero-section .box {
   height: 100%;
@@ -78,7 +78,7 @@ header .navbar .nav-button a button {
   gap: 0.5cm;
 }
 .hero-section .box .inside-section .left-side .mail-link button {
-  background-color: #3461FF;
+  background-color: #3461ff;
   width: 146px;
   height: 64px;
   border-radius: 70px;
@@ -106,7 +106,106 @@ header .navbar .nav-button a button {
   line-height: 32px;
   color: rgba(0, 0, 0, 0.6);
 }
-.hero-section .box .inside-section .right-side img {
+.companies-box {
+  background-color: #fafafa;
+  height: 552px;
+}
+.companies-box .companies-text {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companies-box .companies {
+  display: flex;
+  flex-direction: column;
+}
+.companies-box .companies .companies-list {
   width: 100%;
+}
+.companies-box .companies .companies-list ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.com {
+  height: 536px;
+  margin-top: 100px;
+}
+.com-box-left {
+  display: flex;
+  justify-content: space-evenly;
+}
+.com-box-left-one h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 86.4px;
+  color: rgb(11, 11, 11);
+}
+.com-box-left-one span {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.com-box-left-second h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 86.4px;
+  color: rgb(11, 11, 11);
+}
+.com-box-left-second span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.com-box-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.com-box-right-text {
+  width: 576px;
+}
+.com-box-right-text h1 {
+  font-size: 64px;
+  letter-spacing: -1px;
+  color: rgb(0, 0, 0);
+}
+.com-box-right-text span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  line-height: 32px;
+}
+.com-box-right-button a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.how {
+  height: 808px;
+}
+.how-box {
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.how-box-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.how-box-left-text {
+  width: 499px;
+}
+.how-box-left-text h1 {
+  color: rgb(0, 0, 0);
+  font-size: 64px;
+  letter-spacing: -1px;
+}
+.how-box-left-text span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  line-height: 36px;
 }/*# sourceMappingURL=style.css.map */
