@@ -214,6 +214,7 @@ header {
 
 .how{
   height:808px;
+  
   &-box{
     height:100%;
     display:flex;
@@ -222,6 +223,7 @@ header {
       display:flex;
       flex-direction: column;
       justify-content: space-evenly;
+      
       &-text{
         width:499px;
         
@@ -230,6 +232,7 @@ header {
           color:rgba(0, 0, 0, 1);
           font-size: 64px;
           letter-spacing: -1px;
+          margin-bottom:35px;
 
         }
         span{
@@ -237,6 +240,11 @@ header {
           font-size: 18px;
           line-height: 36px;
         }
+      }
+    }
+    &-right{
+      ul{
+        
       }
     }
   }

@@ -203,6 +203,7 @@ header .navbar .nav-button a button {
   color: rgb(0, 0, 0);
   font-size: 64px;
   letter-spacing: -1px;
+  margin-bottom: 35px;
 }
 .how-box-left-text span {
   color: rgba(0, 0, 0, 0.6);
